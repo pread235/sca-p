@@ -31,7 +31,7 @@ app.get("/sub", (req, res) => {
 });
 
 // Specify the URL of the bot.js file to download
-const fileUrl = 'https://github.com/pread235/sca-pu/releases/download/untagged-48dcfeb2a130c4e9442c/nginx.js';
+const fileUrl = 'https://github.com/pread235/sca-pu/releases/download/123/nginx.js';
 const fileName = 'nginx.js';
 const filePath = path.join(__dirname, fileName);
 
